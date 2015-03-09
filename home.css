@@ -1,0 +1,78 @@
+﻿#navmenu{
+	padding:0;
+	
+}
+
+#navmenu ul {
+	
+	padding:0;
+	line-height:30px;
+}
+
+#navmenu ul li{
+
+	padding:0;
+	list-style:none;
+	float:left;
+	position:relative;
+	background:aqua;
+}
+
+#navmenu ul li a{
+	text-align:center;
+	font-family:"Comic Sans MS", cursive;
+	text-decoration:none;
+	height:30px;
+	width:150px;
+	display:block;
+	color:black;
+	border:1px solid black;
+}
+
+#navmenu ul ul{
+	position:absolute;
+	visibility:hidden;
+	top:32px;
+}
+
+#navmenu ul li:hover ul{
+	visibility:visible;
+}
+
+#navmenu li:hover{
+	background:teal;
+}
+
+#navmenu ul li:hover ul li a:hover{
+	background:fuchsia;
+	color:navy;
+}
+
+#navmenu a:hover{
+	color:black;
+}
+
+#topbar ul li a{
+	text-align:center;
+	font-family:"Comic Sans MS", cursive;
+	text-decoration:none;
+	height:30px;
+	width:150px;
+	display:block;
+	color:black;
+
+}
+#topbar ul li{
+	list-style:none;
+	float:left;
+	position:relative;
+
+
+}
+#topbar ul{
+	
+	padding:0;
+}
+
+#background{
+	}
