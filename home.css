@@ -1,4 +1,4 @@
-﻿#navmenu{
+﻿﻿#navmenu{
 	padding:0;
 	
 }
@@ -55,3 +55,13 @@
 
 #background{
 		}
+		
+table img{
+width: 150px;
+height: 200px;
+border: 2px solid black;
+}
+table td{
+text-align:center;
+
+}
